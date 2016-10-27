@@ -6,6 +6,7 @@
 	url("MyriadPro/MyriadProCondRegular/MyriadProCondRegular.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
 }
 @font-face {
 	font-family: "MyriadProCondItalic";
@@ -15,6 +16,7 @@
 	url("MyriadPro/MyriadProCondItalic/MyriadProCondItalic.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
 }
 @font-face {
 	font-family: "MyriadProCondBold";
@@ -24,6 +26,7 @@
 	url("MyriadPro/MyriadProCondBold/MyriadProCondBold.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
 }
 @font-face {
 	font-family: "MyriadProCondBoldItalic";
@@ -33,4 +36,5 @@
 	url("MyriadPro/MyriadProCondBoldItalic/MyriadProCondBoldItalic.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
 }

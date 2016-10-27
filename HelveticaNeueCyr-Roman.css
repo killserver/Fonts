@@ -7,4 +7,5 @@
 			url('HelveticaNeueCyr/roman/helveticaneuecyr-roman.svg#helveticaneuecyrroman') format('svg');
 	font-weight: normal;
 	font-style: normal;
+	-webkit-font-smoothing: antialiased;
 }
