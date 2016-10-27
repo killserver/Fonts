@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'HelveticaNeueCurRoman';
+	src: 	url('HelveticaNeue/roman/helveticaneuecyr-roman.eot');
+	src: 	url('HelveticaNeue/roman/helveticaneuecyr-roman.eot?#iefix') format('embedded-opentype'),
+			url('HelveticaNeue/roman/helveticaneuecyr-roman.woff') format('woff'),
+			url('HelveticaNeue/roman/helveticaneuecyr-roman.ttf') format('truetype'),
+			url('HelveticaNeue/roman/helveticaneuecyr-roman.svg#helveticaneuecyrroman') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+}

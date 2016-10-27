@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'HelveticaNeueCondensed-Regular';
+	src: 	url('HelveticaNeue/HelveticaNeueCondensed-Regular/HelveticaNeue-CondensedRegular.eot');
+	src: 	url('HelveticaNeue/HelveticaNeueCondensed-Regular/HelveticaNeue-CondensedRegular.eot?#iefix') format('embedded-opentype'),
+			url('HelveticaNeue/HelveticaNeueCondensed-Regular/HelveticaNeue-CondensedRegular.woff') format('woff'),
+			url('HelveticaNeue/HelveticaNeueCondensed-Regular/HelveticaNeue-CondensedRegular.ttf') format('truetype'),
+			url('HelveticaNeue/HelveticaNeueCondensed-Regular/HelveticaNeue-CondensedRegular.svg#helveticaneuecondensedregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+}
