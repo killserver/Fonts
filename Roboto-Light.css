@@ -3,15 +3,21 @@
 	font-weight: 100;
 	src: url('Roboto/Roboto-Light.ttf') format("truetype");
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
 }
 @font-face {
 	font-family: 'Roboto';
 	font-weight: 200;
 	src: url('Roboto/Roboto-Light.ttf') format("truetype");
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
 }
 @font-face {
 	font-family: 'Roboto-Light';
 	src: url('Roboto/Roboto-Light.ttf') format("truetype");
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
 }

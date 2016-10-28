@@ -8,6 +8,8 @@
 	font-weight: normal;
 	font-style: normal;
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
 }
 @font-face {
 	font-family: 'HelveticaNeueRegular';
@@ -19,6 +21,8 @@
 	font-weight: normal;
 	font-style: normal;
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
 }
 @font-face {
 	font-family: 'HelveticaNeue-Regular';
@@ -30,4 +34,6 @@
 	font-weight: normal;
 	font-style: normal;
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
 }

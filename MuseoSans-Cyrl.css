@@ -3,16 +3,22 @@
 	src: local('Museo Sans Cyrl 100'), url('MuseoSans/MuseoSansCyrl_3.otf') format('opentype');
 	src: url('MuseoSans/MuseoSansCyrl_3.ttf') format('truetype');
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
 }
 @font-face{
 	font-family: 'Museo Sans Cyrl 300';
 	src: local('Museo Sans Cyrl 300'), url('MuseoSans/MuseoSansCyrl_0.otf') format('opentype');
 	src: url('MuseoSans/MuseoSansCyrl_0.ttf') format('truetype');
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
 }
 @font-face{
 	font-family: 'Museo Sans Cyrl 500';
 	src: local('Museo Sans Cyrl 500'), url('MuseoSans/MuseoSansCyrl_1.otf') format('opentype');
 	src: url('MuseoSans/MuseoSansCyrl_1.ttf') format('truetype');
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
 }

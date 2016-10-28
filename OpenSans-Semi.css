@@ -8,6 +8,8 @@
 	font-weight: normal;
 	font-style: normal;
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
 }
 @font-face {
 	font-family: 'OpenSansSemiboldItalic';
@@ -19,4 +21,6 @@
 	font-weight: normal;
 	font-style: normal;
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
 }

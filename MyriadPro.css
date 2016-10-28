@@ -7,6 +7,8 @@
 	font-style: normal;
 	font-weight: normal;
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
 }
 @font-face {
 	font-family: "MyriadProCondItalic";
@@ -17,6 +19,8 @@
 	font-style: normal;
 	font-weight: normal;
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
 }
 @font-face {
 	font-family: "MyriadProCondBold";
@@ -27,6 +31,8 @@
 	font-style: normal;
 	font-weight: normal;
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
 }
 @font-face {
 	font-family: "MyriadProCondBoldItalic";
@@ -37,6 +43,8 @@
 	font-style: normal;
 	font-weight: normal;
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
 }
 @font-face {
 	font-family: "MyriadProRegular";
@@ -47,6 +55,8 @@
 	font-style: normal;
 	font-weight: normal;
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
 }
 @font-face {
 	font-family: "MyriadProItalic";
@@ -57,6 +67,8 @@
 	font-style: normal;
 	font-weight: normal;
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
 }
 @font-face {
     font-family: "MyriadProBold";
@@ -67,6 +79,8 @@
     font-style: normal;
     font-weight: normal;
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
 }
 @font-face {
     font-family: "MyriadProBoldItalic";
@@ -77,6 +91,8 @@
     font-style: normal;
     font-weight: normal;
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
 }
 @font-face {
 	font-family: "MyriadProSemiBold";
@@ -87,6 +103,8 @@
 	font-style: normal;
 	font-weight: normal;
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
 }
 @font-face {
 	font-family: "MyriadProSemiBoldItalic";
@@ -97,4 +115,6 @@
 	font-style: normal;
 	font-weight: normal;
 	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
 }
