@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('BebasNeue/BebasNeue.eot');
+    src: url('BebasNeue/BebasNeue.eot?#iefix') format('embedded-opentype'),
+         url('BebasNeue/BebasNeue.woff2') format('woff2'),
+         url('BebasNeue/BebasNeue.woff') format('woff'),
+         url('BebasNeue/BebasNeue.ttf') format('truetype'),
+         url('BebasNeue/BebasNeue.svg#BebasNeue') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
+}
