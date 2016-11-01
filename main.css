@@ -146,3 +146,52 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0px;
 }
+dialog {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	width: -webkit-fit-content;
+	height: -webkit-fit-content;
+	color: #000000;
+	margin: auto;
+	border-width: initial;
+	border-style: solid;
+	border-color: initial;
+	border-image: initial;
+	padding: 1em;
+	background: #ffffff;
+}
+dialog::backdrop {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	background: rgba(0, 0, 0, 0.0980392);
+}
+dialog:not([open]) {
+	display: none;
+}
+input, textarea, keygen, select, button, meter, progress {
+	-webkit-writing-mode: horizontal-tb;
+}
+meter {
+	-webkit-appearance: meter;
+	-moz-appearance: meter;
+	box-sizing: border-box;
+	display: inline-block;
+	height: 1em;
+	width: 5em;
+	vertical-align: -0.2em;
+	-webkit-user-modify: read-only;
+	-moz-user-modify: read-only;
+}
+progress {
+	-webkit-appearance: progress-bar;
+	-moz-appearance: progress-bar;
+	box-sizing: border-box;
+	display: inline-block;
+	height: 1em;
+	width: 10em;
+	vertical-align: -0.2em;
+}
