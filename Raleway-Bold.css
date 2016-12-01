@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'Raleway-Bold';
+	src: url("Raleway/Raleway-Bold.otf") format("opentype"),
+		url("Raleway/Raleway-Bold.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
+}
+@font-face {
+	font-family: 'Raleway-Bold-Italic';
+	src: url("Raleway/Raleway-Bold-Italic.otf") format("opentype"),
+		url("Raleway/Raleway-Bold-Italic.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
+}

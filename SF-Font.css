@@ -1,0 +1,12 @@
+@font-face {
+	font-family: 'San Francisco Regular';
+	src: 	url('SF-Font/san_francisco_regular.eot');
+	src: 	url('SF-Font/san_francisco_regular.eot?#iefix') format('embedded-opentype'),
+			url('SF-Font/san_francisco_regular.woff') format('woff'),
+			url('SF-Font/san_francisco_regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
+}
