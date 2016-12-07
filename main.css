@@ -195,3 +195,9 @@ progress {
 	width: 10em;
 	vertical-align: -0.2em;
 }
+* {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
