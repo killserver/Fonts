@@ -5,6 +5,7 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
 }
 @font-face {
 	font-family: 'Roboto-Regular';
@@ -13,6 +14,7 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
 }
 @font-face {
 	font-family: 'Roboto-Regular';
@@ -21,6 +23,7 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
 }
 @font-face {
 	font-family: 'Roboto-Regular';
@@ -29,6 +32,7 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
 }
 @font-face {
 	font-family: 'Roboto-Bold';
@@ -37,6 +41,7 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
 }
 @font-face {
 	font-family: 'Roboto-Bold';
@@ -45,4 +50,5 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
 }

@@ -10,6 +10,7 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
 }
 @font-face {
 	font-family: 'HelveticaNeueRegular';
@@ -23,6 +24,7 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
 }
 @font-face {
 	font-family: 'HelveticaNeue-Regular';
@@ -36,4 +38,5 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
 }

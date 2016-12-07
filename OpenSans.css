@@ -10,6 +10,7 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
 }
 @font-face {
 	font-family: 'OpenSansLightItalic';
@@ -23,6 +24,7 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
 }
 @font-face {
 	font-family: 'OpenSansRegular';
@@ -36,6 +38,7 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
 }
 @font-face {
 	font-family: 'OpenSansItalic';
@@ -49,6 +52,7 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
 }
 @font-face {
 	font-family: 'OpenSansBold';
@@ -62,6 +66,7 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
 }
 @font-face {
 	font-family: 'OpenSansBoldItalic';
@@ -75,6 +80,7 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
 }
 @font-face {
 	font-family: 'OpenSansSemiBold';
@@ -88,6 +94,7 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
 }
 @font-face {
 	font-family: 'OpenSansSemiBoldItalic';
@@ -101,4 +108,5 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
 }

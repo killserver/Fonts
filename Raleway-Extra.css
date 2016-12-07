@@ -7,6 +7,7 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
 }
 @font-face {
 	font-family: 'Raleway-ExtraLight-Italic';
@@ -17,6 +18,7 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
 }
 @font-face {
 	font-family: 'Raleway-ExtraBold';
@@ -27,6 +29,7 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
 }
 @font-face {
 	font-family: 'Raleway-ExtraBold-Italic';
@@ -37,4 +40,5 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
 }
