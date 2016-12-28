@@ -13,3 +13,31 @@
 	font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
 }
+@font-face {
+    font-family: 'BebasNeue Bold';
+    src: url('BebasNeue/BebasNeue_Bold.eot');
+    src: url('BebasNeue/BebasNeue_Bold.eot?#iefix') format('embedded-opentype'),
+         url('BebasNeue/BebasNeue_Bold.woff') format('woff'),
+         url('BebasNeue/BebasNeue_Bold.ttf') format('truetype'),
+         url('BebasNeue/BebasNeue_Bold.svg#BebasNeue_Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+@font-face {
+    font-family: 'BebasNeueBook';
+    src: url('BebasNeue/BebasNeueBook.eot');
+    src: url('BebasNeue/BebasNeueBook.eot?#iefix') format('embedded-opentype'),
+         url('BebasNeue/BebasNeueBook.woff') format('woff'),
+         url('BebasNeue/BebasNeueBook.ttf') format('truetype'),
+         url('BebasNeue/BebasNeueBook.svg#BebasNeueBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}

@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'GothaPro Bold';
+    src: url('GothaPro/GothaProBol.eot');
+    src: url('GothaPro/GothaProBol.eot?#iefix') format('embedded-opentype'),
+         url('GothaPro/GothaProBol.woff') format('woff'),
+         url('GothaPro/GothaProBol.ttf') format('truetype'),
+         url('GothaPro/GothaProBol.svg#GothaProBol') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+@font-face {
+    font-family: 'GothaPro Bold Italic';
+    src: url('GothaPro/GothaProBolIta.eot');
+    src: url('GothaPro/GothaProBolIta.eot?#iefix') format('embedded-opentype'),
+         url('GothaPro/GothaProBolIta.woff') format('woff'),
+         url('GothaPro/GothaProBolIta.ttf') format('truetype'),
+         url('GothaPro/GothaProBolIta.svg#GothaProBolIta') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+@font-face {
+    font-family: 'GothaPro Italic';
+    src: url('GothaPro/GothaProIta.eot');
+    src: url('GothaPro/GothaProIta.eot?#iefix') format('embedded-opentype'),
+         url('GothaPro/GothaProIta.woff') format('woff'),
+         url('GothaPro/GothaProIta.ttf') format('truetype'),
+         url('GothaPro/GothaProIta.svg#GothaProIta') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+@font-face {
+    font-family: 'GothaPro Regular';
+    src: url('GothaPro/GothaProReg.eot');
+    src: url('GothaPro/GothaProReg.eot?#iefix') format('embedded-opentype'),
+         url('GothaPro/GothaProReg.woff') format('woff'),
+         url('GothaPro/GothaProReg.ttf') format('truetype'),
+         url('GothaPro/GothaProReg.svg#GothaProReg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
