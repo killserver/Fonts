@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'HelveticaNeueCondensed-Black';
-	src: 	url('HelveticaNeue/HelveticaNeueCondensed-Black/HelveticaNeue-CondensedRegular.eot');
-	src: 	url('HelveticaNeue/HelveticaNeueCondensed-Black/HelveticaNeue-CondensedRegular.eot?#iefix') format('embedded-opentype'),
-			url('HelveticaNeue/HelveticaNeueCondensed-Black/HelveticaNeue-CondensedRegular.woff') format('woff'),
-			url('HelveticaNeue/HelveticaNeueCondensed-Black/HelveticaNeue-CondensedRegular.ttf') format('truetype'),
-			url('HelveticaNeue/HelveticaNeueCondensed-Black/HelveticaNeue-CondensedRegular.svg#helveticaneuecondensedbold') format('svg');
+	src: 	url('HelveticaNeue/HelveticaNeueCondensed-Black/HelveticaNeueCondensed-Black.eot');
+	src: 	url('HelveticaNeue/HelveticaNeueCondensed-Black/HelveticaNeueCondensed-Black.eot?#iefix') format('embedded-opentype'),
+			url('HelveticaNeue/HelveticaNeueCondensed-Black/HelveticaNeueCondensed-Black.woff') format('woff'),
+			url('HelveticaNeue/HelveticaNeueCondensed-Black/HelveticaNeueCondensed-Black.ttf') format('truetype'),
+			url('HelveticaNeue/HelveticaNeueCondensed-Black/HelveticaNeueCondensed-Black.svg#helveticaneuecondensedbold') format('svg');
 	font-weight: normal;
 	font-style: normal;
 	-webkit-font-smoothing: antialiased;

@@ -110,6 +110,14 @@ img.optimize, canvas.optimize {
 	image-rendering: optimize-contrast;
 	-ms-interpolation-mode: nearest-neighbor;
 }
+select.clear {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+select.clear::-ms-expand {
+	display: none;
+}
 svg:not(:root) {
 	overflow: hidden;
 }
