@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'MinionPro-Regular';
+	src: 	url('MinionPro/MinionPro-Regular.eot');
+	src: 	url('MinionPro/MinionPro-Regular.eot?#iefix') format('embedded-opentype'),
+			url('MinionPro/MinionPro-Regular.woff') format('woff'),
+			url('MinionPro/MinionPro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
