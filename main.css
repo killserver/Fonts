@@ -373,6 +373,13 @@ textarea, input, button {
 	border-radius: 0px;
 }
 
+.animation {
+	-webkit-transition: background-color 0.7s, color 1s, opacity 0.5s;
+	-ms-transition: background-color 0.7s, color 1s, opacity 0.5s;
+	-o-transition: background-color 0.7s, color 1s, opacity 0.5s;
+	-moz-transition: background-color 0.7s, color 1s, opacity 0.5s;
+	transition: background-color 0.7s, color 1s, opacity 0.5s;
+}
 
 .invisible {
 	visibility: hidden !important;
