@@ -1,0 +1,23 @@
+/* Webfont: Lato-Bold */@font-face {
+    font-family: 'LatoBold';
+    src: url('Lato/Lato-Bold.eot'); /* IE9 Compat Modes */
+    src: url('Lato/Lato-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Lato/Lato-Bold.woff2') format('woff2'), /* Modern Browsers */
+         url('Lato/Lato-Bold.woff') format('woff'), /* Modern Browsers */
+         url('Lato/Lato-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-BoldItalic */@font-face {
+    font-family: 'LatoBold';
+    src: url('Lato/Lato-BoldItalic.eot'); /* IE9 Compat Modes */
+    src: url('Lato/Lato-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Lato/Lato-BoldItalic.woff2') format('woff2'), /* Modern Browsers */
+         url('Lato/Lato-BoldItalic.woff') format('woff'), /* Modern Browsers */
+         url('Lato/Lato-BoldItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}

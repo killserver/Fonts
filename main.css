@@ -168,6 +168,10 @@ svg:not(:root) {
 	overflow: hidden;
 }
 legend {
+	box-sizing: border-box;
+	color: inherit;
+	display: table;
+	max-width: 100%;
 	border: 0px;
 	padding: 0px;
 	white-space: normal;
@@ -292,6 +296,9 @@ a, area, button, [role="button"], input, label, select, summary, textarea {
 	-ms-touch-action: manipulation;
 	touch-action: manipulation;
 }
+button, select {
+	text-transform: none;
+}
 input[type="radio"]:disabled, input[type="checkbox"]:disabled {
 	cursor: not-allowed;
 }
@@ -312,7 +319,10 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 a:not([href]):not([tabindex]):focus {
 	outline: 0;
 }
-
+::-moz-selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
 ::selection {
 	background: #b3d4fc;
 	text-shadow: none;
@@ -337,6 +347,9 @@ audio, canvas, iframe, img, svg, video {
 	}
 	a[href^="#"]:after, a[href^="javascript:"]:after {
 		content: "";
+	}
+	pre {
+		white-space: pre-wrap !important;
 	}
 	pre, blockquote {
 		border: 1px solid #999;
@@ -372,7 +385,12 @@ textarea, input, button {
 	-o-border-radius: 0px;
 	border-radius: 0px;
 }
-
+.browserupgrade {
+	margin: 0.2em 0;
+	background: #ccc;
+	color: #000;
+	padding: 0.2em 0;
+}
 .animation {
 	-webkit-transition: background-color 0.7s, color 1s, opacity 0.5s;
 	-ms-transition: background-color 0.7s, color 1s, opacity 0.5s;
@@ -534,6 +552,9 @@ textarea, input, button {
 	display: none !important;
 }
 @media print {
+	.browserupgrade {
+		display: none !important;
+	}
 	.visible-print {
 		display: block !important;
 	}
