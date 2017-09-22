@@ -51,7 +51,8 @@ dfn {
 }
 hr {
 	-moz-box-sizing: content-box;
-	box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	        box-sizing: content-box;
 	height: 0;
 }
 article, aside, details, figcaption, figure, main, menu, footer, header, hgroup, menu, nav, section, time, summary, dfn, mark, kbd, samp, legend {
@@ -116,7 +117,7 @@ audio:not([controls]) {
 	height: 0px;
 }
 [hidden], template {
-	display: none;
+	display: none !important;
 }
 dfn {
 	font-style: italic;
@@ -172,7 +173,9 @@ svg:not(:root) {
 	overflow: hidden;
 }
 legend {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
 	color: inherit;
 	display: table;
 	max-width: 100%;
@@ -190,7 +193,9 @@ button[disabled], input[disabled] {
 	cursor: default;
 }
 input[type="checkbox"], input[type="radio"] {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
 	padding: 0px;
 	*height: 13px;
 	*width: 13px;
@@ -231,9 +236,20 @@ dialog {
 	border-width: initial;
 	border-style: solid;
 	border-color: initial;
-	border-image: initial;
+	-webkit-border-image: initial;
+	   -moz-border-image: initial;
+	     -o-border-image: initial;
+	        border-image: initial;
 	padding: 1em;
 	background: #ffffff;
+}
+dialog::-webkit-backdrop {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	background: rgba(0, 0, 0, 0.0980392);
 }
 dialog::backdrop {
 	position: fixed;
@@ -252,7 +268,9 @@ input, textarea, keygen, select, button, meter, progress {
 meter {
 	-webkit-appearance: meter;
 	-moz-appearance: meter;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
 	display: inline-block;
 	height: 1em;
 	width: 5em;
@@ -263,7 +281,9 @@ meter {
 progress {
 	-webkit-appearance: progress-bar;
 	-moz-appearance: progress-bar;
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
 	display: inline-block;
 	height: 1em;
 	width: 10em;
@@ -348,7 +368,9 @@ abbr[title], dfn[title] {
 	*, *:before, *:after, *:first-letter {
 		background: transparent !important;
 		color: #000 !important; /* Black prints faster: http://www.sanbeiji.com/archives/953 */
-		box-shadow: none !important;
+		-webkit-box-shadow: none !important;
+		   -moz-box-shadow: none !important;
+		        box-shadow: none !important;
 	}
 	a, a:visited {
 		text-decoration: underline;
