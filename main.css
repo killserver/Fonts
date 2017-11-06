@@ -156,7 +156,6 @@ img.optimize, canvas.optimize {
 .noselect {
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
-	-khtml-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
@@ -296,9 +295,24 @@ progress {
 	-webkit-appearance: button;
 	font: inherit;
 }
+
+@-webkit-viewport {
+	width: device-width;
+}
+@-moz-viewport {
+	width: device-width;
+}
 @-ms-viewport {
 	width: device-width;
 }
+@-o-viewport {
+	width: device-width;
+}
+@viewport {
+	width: device-width;
+}
+
+
 abbr[title], abbr[data-original-title] {
 	cursor: help;
 }
@@ -417,10 +431,58 @@ textarea, input, button {
 	appearance: none;
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
-	-ms-border-radius: 0px;
-	-o-border-radius: 0px;
 	border-radius: 0px;
+	margin: 0;
+	background-color: transparent;
+	outline: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
+input[type="submit"], button {
+	width: auto;
+	cursor: pointer;
+}
+select, option {
+	cursor: pointer;
+}
+input[type="checkbox"] {
+	-webkit-appearance: checkbox;
+	   -moz-appearance: checkbox;
+	        appearance: checkbox;
+}
+input[type="radio"] {
+	-webkit-appearance: radio;
+	   -moz-appearance: radio;
+	        appearance: radio;
+}
+input[type=checkbox], input[type=radio] {
+	width: auto;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+	color: #333;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+	color: #333;
+}
+input.placeholder, textarea.placeholder {
+	color: #333;
+}
+input[placeholder] {
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+}
+::-moz-placeholder {
+	text-overflow: ellipsis;
+}
+input:-moz-placeholder {
+	text-overflow: ellipsis;
+}
+
 .browserupgrade {
 	margin: 0.2em 0;
 	background: #ccc;
@@ -429,7 +491,6 @@ textarea, input, button {
 }
 .animation {
 	-webkit-transition: background-color 0.7s, color 1s, opacity 0.5s;
-	-ms-transition: background-color 0.7s, color 1s, opacity 0.5s;
 	-o-transition: background-color 0.7s, color 1s, opacity 0.5s;
 	-moz-transition: background-color 0.7s, color 1s, opacity 0.5s;
 	transition: background-color 0.7s, color 1s, opacity 0.5s;
