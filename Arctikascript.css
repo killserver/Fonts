@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'Arctika script';
+	src: url('Arctikascript/Arctikascript.eot');
+	src: local('Arctika script'), local('Arctikascript'),
+		url('Arctikascript/Arctikascript.eot?#iefix') format('embedded-opentype'),
+		url('Arctikascript/Arctikascript.woff') format('woff'),
+		url('Arctikascript/Arctikascript.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
